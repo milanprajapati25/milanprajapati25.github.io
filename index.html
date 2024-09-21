@@ -4,33 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to SachinHR's GitHub Page</title>
+    <title>Milan Prajapati HR Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #1E1E1E;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #121212;
+            color: #E0E0E0;
+            padding: 20px;
             text-align: center;
-            padding: 50px;
         }
-        h1 {
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
             color: #4CAF50;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
-        p {
+        nav a:hover {
+            color: #81C784;
+        }
+        section {
+            padding: 30px;
+            margin: 0;
+            background-color: #282828;
+            border-bottom: 1px solid #424242;
+        }
+        h1, h2 {
+            color: #81C784;
+        }
+        p, ul {
             font-size: 18px;
+            line-height: 1.8;
+            margin: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #424242;
         }
         footer {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #666;
+            background-color: #121212;
+            color: #E0E0E0;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .resume-link {
+            color: #FF5722;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .resume-link:hover {
+            color: #FF8A65;
+        }
+        /* Full-width layout */
+        section, header, footer {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <p>This is a simple webpage created by SachinHR to showcase my portfolio.</p>
+
+    <!-- Header -->
+    <header>
+        <h1>Milan Prajapati HR Portfolio</h1>
+        <p>Welcome to my portfolio, showcasing my journey in HR and Talent Acquisition.</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#employment-history">Employment History</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#placements">Placements</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact Me</a>
+            <a href="resume.pdf" class="resume-link" download>Resume</a>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Milan Prajapati, an experienced HR professional and talent acquisition specialist based in Toronto, ON. I have worked with SMBs and Fortune 500 clients across Canada and the United States, with a passion for people and processes.</p>
+    </section>
+
+    <!-- Employment History Section -->
+    <section id="employment-history">
+        <h2>Employment History</h2>
+        <ul>
+            <li><strong>HR Manager - Company A</strong> (2021 - Present)<br>
+                Leading talent acquisition and HR operations for a team of 200 employees.</li>
+            <li><strong>Talent Acquisition Specialist - Company B</strong> (2018 - 2021)<br>
+                Managed recruitment for technical and non-technical positions across North America.</li>
+            <li><strong>HR Coordinator - Company C</strong> (2016 - 2018)<br>
+                Coordinated HR processes and employee engagement for a fast-growing startup.</li>
+        </ul>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2>Achievements in Talent Acquisition</h2>
+        <ul>
+            <li>Successfully hired over 500+ candidates across various sectors including IT, healthcare, and finance.</li>
+            <li>Developed a comprehensive talent acquisition strategy that reduced time-to-hire by 30%.</li>
+            <li>Led diversity hiring initiatives that increased representation by 20% in company workforce.</li>
+        </ul>
+    </section>
+
+    <!-- Placements Section -->
+    <section id="placements">
+        <h2>Placements</h2>
+        <ul>
+            <li><strong>Company X:</strong> Placed 50+ engineers and IT professionals in leadership roles.</li>
+            <li><strong>Company Y:</strong> Recruited key analysts and managers for the finance department.</li>
+            <li><strong>Company Z:</strong> Managed large-scale healthcare recruitment, placing 100+ nurses and staff.</li>
+        </ul>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <ul>
+            <li><a href="blog1.html">The Future of HR: Trends to Watch in 2024</a></li>
+            <li><a href="blog2.html">5 Strategies for Efficient Talent Acquisition</a></li>
+        </ul>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect, feel free to reach out via email: <strong><a href="mailto:milan.prajapati@email.com">milan.prajapati@email.com</a></strong></p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Created by SachinHR | © 2024</p>
+        <p>&copy; 2024 Milan Prajapati. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
